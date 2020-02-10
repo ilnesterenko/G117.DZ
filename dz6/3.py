@@ -2,9 +2,9 @@
 #Например, есть число 123. Попав в нашу функцию, должно произойти следующее: 1 + 2 + 3 = 6.
 #Результат суммирования - в консоль.
 
-def funcAddElements(number):
+def funcSumElements(number):
 
     mylist = list(map(int, number))  # map() function
     print('Сумма цифр числа:', sum(map(int, number)))
 
-funcAddElements(input('Введите число, которое хотите суммировать: '))
+funcSumElements(input('Введите число, которое хотите суммировать: '))
